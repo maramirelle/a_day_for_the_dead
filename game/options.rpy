@@ -152,6 +152,11 @@ define config.save_directory = "a_day_for_the_dead-1744307936"
 
 define config.window_icon = "gui/window_icon.png"
 
+## Disable history and rollback
+
+#define config.has_history = False
+define config.rollback_enabled = False
+
 
 ## Build configuration #########################################################
 ##
