@@ -151,7 +151,7 @@ label start:
 
         angel "Then here's one more little gift for our lovely dead one!"
 
-        show screen remember
+        $ remember_unlocked = True
 
         angel "Now you can remember anything you’ve seen or heard — *exactly* as it was. Just tap that REMEMBER button. It’s floating right beside you."
 

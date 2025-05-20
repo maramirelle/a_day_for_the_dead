@@ -110,11 +110,25 @@ screen say(who, what):
 
         text what id "what"
 
+        if remember_unlocked:
+            textbutton "Remember":
+                xalign 0.95
+                yalign 0.8
+                action Function(save_line, who, what)
 
+    
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
+
+init python:
+    def save_line(who, what):
+        import time 
+        
+        game_time = "{:02d}:{:02d}".format(game_hour, game_minute)
+        
+        saved_lines.append((game_time, who, what))
 
 
 ## Make the namebox available for styling through the Character object.
@@ -161,6 +175,26 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+
+## Memories screen
+
+screen memories():
+    tag menu
+    modal True
+
+    frame:
+        style "menu_frame"
+        xalign 0.5
+        yalign 0.5
+        vbox:
+            spacing 10
+            for line in saved_lines:
+                text "[line[0]] | [line[1]]: \"[line[2]]\""
+    
+    textbutton "Close":
+        action Return()
+
+#key "m" action Show("memories")
 
 ## Input screen ################################################################
 ##
@@ -1419,12 +1453,7 @@ define bubble.expand_area = {
 }
 
 
-screen remember():
-    frame:
-        xalign 0.5 ypos 50
-    vbox:
-        textbutton "REMEMBER":
-            action Return(True)
+
 
 
 

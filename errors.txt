@@ -2,9 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/screens.rpy", line 1503: textbutton expects a non-empty block.
-    textbutton "REMEMBER":
-                          ^
+File "game/screens.rpy", line 127: invalid syntax
+        import time game_time = "{:02d}:{:02d}".format(game_hour, game_minute)
+                     ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Fri May 16 11:14:43 2025
+Tue May 20 23:42:09 2025
