@@ -543,73 +543,73 @@ label start:
 
         main_ch "Where are we going?"
 
-        angel "That should be science class."
+        angel "That should be the science classroom."
 
         main_ch "..."
 
-        angel "I see, science doesn't sound like your cup of tea."
+        angel "I see. Science doesn’t sound like your cup of tea?"
 
         main_ch "I was just thinking a bit."
 
-        main_ch "I'm not sure that I used to study here. I can't remember any lessons, any places, any students..."
+        main_ch "I’m not even sure I used to study here. I can’t remember any lessons, any places, any students..."
 
-        angel "You're already dead. So calm down. You don't need to worry about any exams."
+        angel "You’re already dead. So calm down. No need to worry about exams."
 
-        main_ch "Oh, what kind of exams are you talking about?"
+        main_ch "Oh? What kind of exams are you talking about?"
 
-        angel "Well, you know, before you graduate, you need to pass somne exams..."
+        angel "Well, you know. Before you graduate, you usually have to pass some exams..."
 
-        main_ch "So, it's the last school year for me now?"
+        main_ch "So it’s my last school year now?"
 
-        angel "Definetely. You won't be studying anywhere anymore."
+        angel "Definitely. You won’t be studying anywhere ever again."
 
-        main_ch "That's not the point. I mean, I've almost graduated, aren't I? Besides, if I succeed in my investigations, I'll return back to life, so..."
+        main_ch "That’s not the point. I mean, I’ve almost graduated, haven’t I? Besides, if I succeed in my investigation, I’ll come back to life, so..."
 
-        angel "What a clever dead one! Rrr, I didn't want to give you hints anymore!"
+        angel "What a clever dead one! Rrrr, I didn’t want to give you hints anymore!"
 
-        main_ch "But you gave."
+        main_ch "But you did."
 
-        angel "Okay, I'm disappearing! Work on your own!"
+        angel "Okay, I’m disappearing! Figure it out yourself!"
 
         main_ch "..."
 
-        main_ch "And now they are gone."
+        main_ch "And now they’re gone."
 
-        main_ch "So, what are my classmates are doing there?"
+        main_ch "So, what are my classmates doing there?"
 
         scene bg science
 
-        queen "We need to do something right now! Three girls are already dead! What if he's planning to kill the rest of us at the very moment?!"
+        queen "We need to do something right now! Three girls are already dead! What if he’s planning to kill the rest of us *right now*?!"
 
-        bang "We don't even know if it was a planned murder. Maybe girls just saw something they should not?"
+        bang "We don’t even know if it was a planned murder. Maybe the girls just saw something they weren’t supposed to?"
 
-        basic "We'd better call the police. They are experts, they will figure everything out."
+        basic "We’d better call the police. They’re the experts — they’ll figure everything out."
 
-        fly "Yes, it would be extra-cool if we could..."
+        fly "Yeah, it’d be super cool if we could just..."
 
         gunman "Nobody can protect us except ourselves."
 
-        curly "So, the phone is broken, but we still can go out! Chishibuki-san and others went to the city yesterday. Why can't we do the same today?"
+        curly "Okay, the phone’s broken, but we can still go out! Chishibuki-san and the others went to the city yesterday. Why can’t we do the same?"
 
         main_ch "Chishibuki-san... That serious dead girl!"
 
-        bang "This morning Hari and I were outside. The storm damaged the road, there are rocks everywhere, so I don't think any of us could pass."
+        bang "Hari and I were outside this morning. The storm damaged the road — rocks everywhere. I don’t think any of us could make it through."
 
-        barling "So, everything we can is just wait until tomorrow's evening, then..."
+        barling "So all we can do is just wait until tomorrow evening, then..."
 
-        fly "Looks like that..."
+        fly "Looks like it..."
 
-        queen "But what about the murderer? He may be still here!"
+        queen "But what about the murderer?! He might still be here!"
 
-        handsome "If we don't go anywhere alone, nobody can attack us, I think."
+        handsome "If we don’t go anywhere alone, nobody can attack us. I think."
 
-        kitten "But there were three of them at the art class!"
+        kitten "But there were *three* of them in the art classroom!"
 
-        curly "That's true..."
+        curly "That’s true..."
 
-        fly "It's time to admit that we're in real danger."
+        fly "It’s time to admit we’re in real danger."
 
-        basic "And that we can do nothing with it."
+        basic "And we can’t do anything about it."
 
         
 
