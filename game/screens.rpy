@@ -194,7 +194,21 @@ screen memories():
     textbutton "Close":
         action Return()
 
-#key "m" action Show("memories")
+init python:
+    def open_memories():
+        renpy.call_in_new_context("show_memories")
+
+    config.keymap['open_memories'] = ['m']
+    config.overlay_functions.append(
+        lambda: ui.keymap(open_memories=open_memories)
+    )
+
+label show_memories:
+    call screen memories
+    return
+
+
+
 
 ## Input screen ################################################################
 ##
