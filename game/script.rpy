@@ -611,6 +611,40 @@ label start:
 
         basic "And we can’t do anything about it."
 
+        gunman "We're still able to search the school together. It's not so big, so if there is a murderer somewhere, he wouldn't remain unnoticed."
+
+        bang "That's true. There are still eleven of us. Even if we have to deal with ninja, he won't kill all of us in a second!"
+
+        forest "Still, while we're travelling here and there in such large company, the murderer may sneak off."
+
+        kitten "Are you offering to divide our groop, Shinkan-san?"
+
+        forest "Yes. Five of us will go upstairs, the rest will observe the first floor and the school yard."
+
+        forest "If you don't mind, of course..."
+
+        curly "Sounds good. I gonna stay here. Who's with me?"
+
+        queen "Me!"
+
+        basic "Okay, me too."
+
+        bang "Me either. Menmou-san?"
+
+        kitten "Okay, I'm in."
+
+        handsome "I'd better stay here too."
+
+        barling "So, Katakiyaku-kun, Soradaki-chan, Shinkan-san, Kinzoku-san and I are going upstairs."
+
+        bang "Let's meet at the kitchen when we're done."
+
+        gunman "Okay. Good luck, guys."
+
+        main_ch "It looks like I need to choose which groop to haunt."
+
+
+
         
 
 
