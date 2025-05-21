@@ -611,38 +611,37 @@ label start:
 
         basic "And we can’t do anything about it."
 
-        gunman "We're still able to search the school together. It's not so big, so if there is a murderer somewhere, he wouldn't remain unnoticed."
+        gunman "We can still search the school together. It's not that big, so if there's a murderer hiding somewhere, they won’t go unnoticed."
 
-        bang "That's true. There are still eleven of us. Even if we have to deal with ninja, he won't kill all of us in a second!"
+        bang "That's true. There are still eleven of us. Even if we're dealing with a ninja, they can't kill all of us in a second!"
 
-        forest "Still, while we're travelling here and there in such large company, the murderer may sneak off."
+        forest "Still, while we're walking around in such a large group, the murderer might sneak away."
 
-        kitten "Are you offering to divide our groop, Shinkan-san?"
+        kitten "Are you suggesting we split up, Shinkan-san?"
 
-        forest "Yes. Five of us will go upstairs, the rest will observe the first floor and the school yard."
+        forest "Yes. Five of us will go upstairs, and the rest will watch the first floor and the schoolyard."
 
         forest "If you don't mind, of course..."
 
-        curly "Sounds good. I gonna stay here. Who's with me?"
+        curly "Sounds good. I'm gonna stay here. Who’s with me?"
 
         queen "Me!"
 
         basic "Okay, me too."
 
-        bang "Me either. Menmou-san?"
+        bang "Same here. Menmou-san?"
 
-        kitten "Okay, I'm in."
+        kitten "Alright, I'm in."
 
-        handsome "I'd better stay here too."
+        handsome "I’d better stay here too."
 
-        barling "So, Katakiyaku-kun, Soradaki-chan, Shinkan-san, Kinzoku-san and I are going upstairs."
+        barling "So, Katakiyaku-kun, Soradaki-chan, Shinkan-san, Kinzoku-san, and I will go upstairs."
 
-        bang "Let's meet at the kitchen when we're done."
+        bang "Let’s meet in the kitchen when we’re done."
 
         gunman "Okay. Good luck, guys."
 
-        main_ch "It looks like I need to choose which groop to haunt."
-
+        main_ch "Looks like I need to choose which group to follow."
 
 
         
