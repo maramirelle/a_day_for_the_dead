@@ -643,6 +643,37 @@ label start:
 
         main_ch "Looks like I need to choose which group to follow."
 
+        menu:
+
+        "Stay at the 1st floor":
+            jump choice1_down
+
+        "Go upstairs":
+            jump choice1_up
+
+    label choice1_down:
+
+        $ choice1_flag = True
+
+        main_ch "So, I'm staying here."
+
+        main_ch "My current company is Curly, Queen, Basic, Bang, Handsome and Kitten. For boys, two girls."
+
+        jump choice1_done
+
+    label choice1_up:
+
+        $ choice1_flag = False
+
+        main_ch "So, let's proceed upstairs."
+
+        jump choice1_done
+
+    label choice1_done:
+
+        # ... the game continues here.
+ 
+
 
         
 
