@@ -663,7 +663,138 @@ label start:
 
         kitten "Where are we going to start from?"
 
-        bang ""
+        bang "Maybe let's split up and move from ends of the hallway to the exit?"
+
+        queen "I'm taking the kitchen part!"
+
+        bang "As you wish. I'm going to start from the gym. Who's with me?"
+
+        curly "Count me in."
+
+        basic "Same here."
+
+        queen "Isn't it more wise to form groops with one girl and two boys instead?"
+
+        handsome "Sounds rational."
+
+        queen "Kuumojiretsu-kun, would you join us?"
+
+        curly "Hmmm..."
+
+        curly "Okay..."
+
+        kitten "It means, I'm with you, Keisetsu-kun, Hichou-kun."
+
+        bang "We don't mind at all."
+
+        basic "Yeah, sure!"
+
+        curly "See you later, guys!"
+
+        main_ch "Okay, they are leaving me alone again."
+
+        angel "Chase someone, then!"
+
+        main_ch "Fair enough."
+
+        main_ch "Feels like Ougyoku-san stole Kuumojiretsu-san from his company. I'm curious about what do they think of it, so..."
+
+        bang "...And nobody's here. Us only."
+
+        main_ch "And me."
+
+        kitten "Definitely."
+
+        basic "Or they're ninjas!"
+
+        kitten "Or they are ninjas."
+
+        main_ch "No ninjas around here. Just me."
+
+        angel "How can you say you're not a ninja if you don't remember anything, my cute dead one?"
+
+        main_ch "..."
+
+        main_ch "I don't feel like a ninja."
+
+        angel "What kind of feeling it's supposed to be?"
+
+        main_ch "..."
+
+        main_ch "Who knows?"
+
+        angel "Don't stare at me, I'm not a ninja!"
+
+        main_ch "Okay, okay."
+
+        kitten "To the Classroom A, then?"
+
+        basic "Yes, sure. Let's go!"
+
+        bang "Hari, wait a sec."
+
+        basic "What, your heart is beating too fast when you're at the same place with lil Kitten, hah?"
+
+        bang "Shut up! It's not the point!"
+
+        basic "The Queen stuff, then? Just chill out, dude!"
+
+        bang "..."
+
+        basic "Queen is Queen. You know her. She is crazy about controlling anything around her."
+
+        basic "And smile, dude! Be fuckin' nice! It's your Misora-chan with us, not Queen!"
+
+        bang "..."
+
+        bang "My bad."
+
+        basic "See?"
+
+        kitten "Aren't you attacked by ninjas, guys?"
+
+        basic "Sorry, Menmou-san, we're coming!"
+
+        bang "Yeah!"
+
+        main_ch "Interesting."
+
+        angel "What exactly?"
+
+        main_ch "The nicknames."
+
+        angel "Not the romantical stuff?"
+
+        main_ch "No."
+
+        angel "Your heart is too cold, you know?"
+
+        main_ch "Not only the heart. I'm cold from head to toes."
+
+        angel "..."
+
+        main_ch "I'm dead, you know?"
+
+        angel "I'm just realising how hilarious you are, my little dead one!"
+
+        main_ch "Don't I have a normal name?"
+
+        angel "You can choose any nickname instead!"
+
+        main_ch "No, thanks."
+
+        main_ch "In addition, I'm sure I already have one."
+
+        angel "Looks like that."
+
+        main_ch "So, now I know that Menmou-san is Kitten and Ougyoku-san is Queen."
+
+        main_ch "I think, these nicknames are a real match."
+
+        main_ch "I wonder what's mine."
+
+
+
 
 
 
