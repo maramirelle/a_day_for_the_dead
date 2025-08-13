@@ -861,7 +861,7 @@ label start:
 
         queen "Forest and Goldsmith tried, but nothing changed. As I heard."
 
-        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeeds."
+        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeed."
 
         curly "Right."
 
