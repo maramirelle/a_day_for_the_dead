@@ -663,7 +663,7 @@ label start:
 
         kitten "Where are we going to start from?"
 
-        bang "Maybe let's split up and move from ends of the hallway to the exit?"
+        bang "Maybe let's split up and move from the ends of the hallway to the exit?"
 
         queen "I'm taking the kitchen part!"
 
@@ -673,17 +673,17 @@ label start:
 
         basic "Same here."
 
-        queen "Isn't it more wise to form groops with one girl and two boys instead?"
+        queen "Isn't it more wise to form groups of one girl and two boys instead?"
 
         handsome "Sounds rational."
 
-        queen "Kuumojiretsu-kun, would you join us?"
+        queen "Kuumojiretsu-kun, would you like to join us?"
 
         curly "Hmmm..."
 
         curly "Okay..."
 
-        kitten "It means, I'm with you, Keisetsu-kun, Hichou-kun."
+        kitten "So, I'm with you, Keisetsu-kun, Hichou-kun."
 
         bang "We don't mind at all."
 
@@ -717,7 +717,7 @@ label start:
 
         main_ch "I don't feel like a ninja."
 
-        angel "What kind of feeling it's supposed to be?"
+        angel "What kind of feeling is it supposed to be?"
 
         main_ch "..."
 
@@ -741,7 +741,7 @@ label start:
 
         bang "..."
 
-        basic "Queen is Queen. You know her. She is crazy about controlling anything around her."
+        basic "Queen is Queen. You know her. She is crazy about controlling everything around her."
 
         basic "And smile, dude! Be fuckin' nice! It's your Misora-chan with us, not Queen!"
 
@@ -777,7 +777,7 @@ label start:
 
         angel "I'm just realising how hilarious you are, my little dead one!"
 
-        main_ch "Don't I have a normal name?"
+        main_ch "I have a normal name, don't I?"
 
         angel "You can choose any nickname instead!"
 
@@ -793,6 +793,77 @@ label start:
 
         main_ch "I wonder what's mine."
 
+        main_ch "Anyway, I wanna take a look at the Queen's group."
+
+        angel "Sure, go on, my pretty dead one!"
+
+        queen "Keep the door open, Gojinka-kun. I don't wanna get stuck at the murderer's trap."
+
+        handsome "The door don't have any locks, but if you wish so..."
+
+        curly "It seems to me, there's nobody except us around here. Just like at the kitchen."
+
+        curly "The only ones that could accompany us are ghosts, but they don't seem to give us any hints. Or throw any knifes."
+
+        handsome "Exactly."
+
+        main_ch "Dunno about the knifes, but I can't give you any hints."
+
+        main_ch "Sorry, guys, I know less then you do, really."
+
+        queen "Are you mocking at me?"
+
+        curly "Not at all, Ougyoku-san."
+
+        queen "..."
+
+        queen "I believe you. But only for {i}this{/i} time."
+
+        curly "Glad to hear."
+
+        curly "Anyway, let's proceed to the Sciense Class."
+
+        handsome "Sounds good."
+
+        queen "I agree."
+
+        queen "Who's that murderer, I wonder."
+
+        handsome "If we knew, we wouldn't search them here and there."
+
+        curly "Cannot disagree."
+
+        queen "What would we do if we found nobody? It feels..."
+
+        handsome "Scary?"
+
+        queen "Like, the danger may wait for us everywhere - and we won't be able to protect ourselves!"
+
+        curly "Let's hope for better."
+
+        curly "The girls couldn't just lay down and die from nothing. It means, someone did it. A real human, with flesh and bones."
+
+        curly "So, if that someone is real, we can catch them."
+
+        curly "I don't know what we'll do with them when catch, still there will be all of us against one human being."
+
+        curly "We are bound to succeed."
+
+        handsome "Sounds rational."
+
+        queen "I'm glad you joined us, Kuumojiretsu-kun! Your words make me feel better."
+
+        curly "Happy to hear."
+
+        curly "So, no one's here again."
+
+        handsome "If only we could fix the phone..."
+
+        queen "Forest and Goldsmith tried, but nothing changed. As I heard."
+
+        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeeds."
+
+        curly "Right."
 
 
 
