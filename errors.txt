@@ -2,17 +2,33 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 646: menu statement expects a non-empty block.
-    menu:
-        ^
+File "game/script.rpy", line 1135: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Not really."
+    ^
 
-File "game/script.rpy", line 648: expected statement.
-    "Stay at the 1st floor":
-                           ^
+File "game/script.rpy", line 1143: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Just as I said."
+    ^
 
-File "game/script.rpy", line 651: expected statement.
-    "Go upstairs":
-                 ^
+File "game/script.rpy", line 1149: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Queen as she is."
+    ^
+
+File "game/script.rpy", line 1157: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Sounded like passive agression."
+    ^
+
+File "game/script.rpy", line 1259: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Another strange nickname?"
+    ^
+
+File "game/script.rpy", line 1263: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Junkie? Who's that?"
+    ^
+
+File "game/script.rpy", line 1277: Line is indented, but the preceding one-line python statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    main_ch "Oh, {i}that{/i} kind of crown..."
+    ^
 
 Ren'Py Version: Ren'Py 8.1.3.23091805
-Sun Aug 10 09:52:06 2025
+Mon Aug 18 17:11:15 2025

@@ -821,6 +821,14 @@ label start:
 
         curly "Glad to hear."
 
+        handsome "If only we could fix the phone..."
+
+        queen "Forest and Goldsmith tried, but nothing changed. As I heard."
+
+        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeed."
+
+        curly "Right."        
+
         curly "Anyway, let's proceed to the Sciense Class."
 
         handsome "Sounds good."
@@ -857,14 +865,101 @@ label start:
 
         curly "So, no one's here again."
 
-        handsome "If only we could fix the phone..."
+        main_ch "Except me."
 
-        queen "Forest and Goldsmith tried, but nothing changed. As I heard."
+        angel "And me."
 
-        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeed."
+        curly "So, Classroom B is the only one left..."
 
-        curly "Right."
+        handsome "Let's check it, then."
 
+        angel "By the way, the other part is entering Art Class at the very moment."
+
+        main_ch "Sounds like it may be more informative there."
+
+        angel "That's exactly what I mean!"
+
+        main_ch "Okay, let's join them."
+
+        main_ch "Here we are."
+
+        main_ch "Again."
+
+        main_ch "At the very beginning, hah?"
+
+        angel "Now you know more than before, don't you?"
+
+        main_ch "Probably..."
+
+        main_ch "At least, I know that I'm the one who went to the city yesterday."
+
+        main_ch "Hope someone will mention it now."
+
+        angel "Let's see..."
+
+        bang "These... girls look more ordinary now... Sorry for I'm saying."
+
+        kitten "You don't need to apologyze, Keisetsu-kun. I've caught the idea."
+
+        basic "We've already seen the bodies, so they doesn't scare us too much this time, right?"
+
+        bang "Exactly..."
+
+        kitten "Anyway, I don't feel like I wanna look at them any longer. Sorry, guys."
+
+        basic "Go to her, dude. I'll finish the stuff here."
+
+        bang "Thanks!"
+
+        basic "Okay, our charming lovers left, and that's how the real stuff begins!"
+
+        main_ch "What does he mean?"
+
+        basic "I mean, who else can search the area around the bodies?"
+
+        main_ch "Do you hear me?"
+
+        basic "Oh, poor girls... We've never communicated, actually... Anyway, I'm so sorry for what's happened to you three..."
+
+        main_ch "Emmmm, thanks?"
+
+        basic "Seems like you've just returned from the city - and now you're dead... Oh, the lockers are opened!"
+
+        main_ch "Which of us has just returned?"
+
+        basic "And what do we have here? Did these bodies just fall out or what?"
+
+        main_ch "Hey, don't change the topic!"
+
+        basic "You don't seem to tell me the truth, do you?"
+
+        main_ch "You don't seem to hear me anyway!"
+
+        basic "I see..."
+
+        basic "Hope you three enjoyed your yesterday. Best friends and all that stuff."
+
+        basic "What were you even talking about all the time? You three were as different as... dunno..."
+
+        basic "..."
+
+        bang "Hari, are you okay there?"
+
+        basic "Ah, yeah, there's nothing new here. Wait, I'm coming..."
+
+        main_ch "..."
+
+        main_ch "It means, there's a new trouble."
+
+        angel "Kinda."
+
+        angel "What's next?"
+
+        main_ch "No ideas."
+
+        main_ch "At least, I can keep following them. Perhaps some more details can recall any memories..."
+
+        
 
 
 
@@ -1035,7 +1130,7 @@ label start:
 
         fly "You two are talking like you've actually found those ninjas!"
 
-        $ if choice1_flag == True:
+        if choice1_flag:
         
             main_ch "Not really."
 
@@ -1043,13 +1138,13 @@ label start:
 
         basic "Not really..."
 
-        $ if choice1_flag == True:
+        if choice1_flag:
         
             main_ch "Just as I said."
 
         queen "Let me interrupt this obviously intelligent discussion."
 
-        $ if choice1_flag == True:
+        if choice1_flag:
 
             main_ch "Queen as she is."
 
@@ -1057,7 +1152,7 @@ label start:
 
             main_ch "Me too."        
 
-        $ else:
+        else:
 
             main_ch "Sounded like passive agression."
 
@@ -1159,11 +1254,11 @@ label start:
 
         bang "Yeah. One of them was actually {i}Junkie{/i}."
 
-        $ if choice1_flag == True:
+        if choice1_flag:
 
             main_ch "Another strange nickname?"
 
-        $ else:
+        else:
 
             main_ch "Junkie? Who's that?"
 
@@ -1177,7 +1272,7 @@ label start:
 
         bang "You too, {i}Forest{/i}. And {i}Queen{/i}, don't act like it's the first time you hear it. Weren't you the one who started it all?"
 
-        $ if choice1_flag == False:
+        if choice1_flag == False:
 
             main_ch "Oh, {i}that{/i} kind of crown..."
 
