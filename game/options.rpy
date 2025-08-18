@@ -152,6 +152,19 @@ define config.save_directory = "a_day_for_the_dead-1744307936"
 
 define config.window_icon = "gui/window_icon.png"
 
+## Disable rollback
+
+define config.rollback_enabled = False
+
+## "Remember" settings
+
+default remember_unlocked = False
+default saved_lines = []
+
+## In-game time settings
+
+default game_hour = 9
+default game_minute = 00
 
 ## Build configuration #########################################################
 ##

@@ -110,11 +110,25 @@ screen say(who, what):
 
         text what id "what"
 
+        if remember_unlocked:
+            textbutton "Remember":
+                xalign 0.95
+                yalign 0.8
+                action Function(save_line, who, what)
 
+    
     ## If there's a side image, display it above the text. Do not display on the
     ## phone variant - there's no room.
     if not renpy.variant("small"):
         add SideImage() xalign 0.0 yalign 1.0
+
+init python:
+    def save_line(who, what):
+        import time 
+        
+        game_time = "{:02d}:{:02d}".format(game_hour, game_minute)
+        
+        saved_lines.append((game_time, who, what))
 
 
 ## Make the namebox available for styling through the Character object.
@@ -161,6 +175,40 @@ style say_dialogue:
     ypos gui.dialogue_ypos
 
     adjust_spacing False
+
+## Memories screen
+
+screen memories():
+    tag menu
+    modal True
+
+    frame:
+        style "menu_frame"
+        xalign 0.5
+        yalign 0.5
+        vbox:
+            spacing 10
+            for line in saved_lines:
+                text "[line[0]] | [line[1]]: \"[line[2]]\""
+    
+    textbutton "Close":
+        action Return()
+
+init python:
+    def open_memories():
+        renpy.call_in_new_context("show_memories")
+
+    config.keymap['open_memories'] = ['m']
+    config.overlay_functions.append(
+        lambda: ui.keymap(open_memories=open_memories)
+    )
+
+label show_memories:
+    call screen memories
+    return
+
+
+
 
 ## Input screen ################################################################
 ##
@@ -249,8 +297,8 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
+            #textbutton _("Back") action Rollback()
+            #textbutton _("History") action ShowMenu('history')
             textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
             textbutton _("Save") action ShowMenu('save')
@@ -301,7 +349,7 @@ screen navigation():
 
         else:
 
-            textbutton _("History") action ShowMenu("history")
+            #textbutton _("History") action ShowMenu("history")
 
             textbutton _("Save") action ShowMenu("save")
 
@@ -883,85 +931,8 @@ style slider_vbox:
 
 screen history():
 
-    tag menu
-
-    ## Avoid predicting this screen, as it can be very large.
-    predict False
-
-    use game_menu(_("History"), scroll=("vpgrid" if gui.history_height else "viewport"), yinitial=1.0):
-
-        style_prefix "history"
-
-        for h in _history_list:
-
-            window:
-
-                ## This lays things out properly if history_height is None.
-                has fixed:
-                    yfit True
-
-                if h.who:
-
-                    label h.who:
-                        style "history_name"
-                        substitute False
-
-                        ## Take the color of the who text from the Character, if
-                        ## set.
-                        if "color" in h.who_args:
-                            text_color h.who_args["color"]
-
-                $ what = renpy.filter_text_tags(h.what, allow=gui.history_allow_tags)
-                text what:
-                    substitute False
-
-        if not _history_list:
-            label _("The dialogue history is empty.")
-
-
-## This determines what tags are allowed to be displayed on the history screen.
-
-define gui.history_allow_tags = { "alt", "noalt", "rt", "rb", "art" }
-
-
-style history_window is empty
-
-style history_name is gui_label
-style history_name_text is gui_label_text
-style history_text is gui_text
-
-style history_label is gui_label
-style history_label_text is gui_label_text
-
-style history_window:
-    xfill True
-    ysize gui.history_height
-
-style history_name:
-    xpos gui.history_name_xpos
-    xanchor gui.history_name_xalign
-    ypos gui.history_name_ypos
-    xsize gui.history_name_width
-
-style history_name_text:
-    min_width gui.history_name_width
-    textalign gui.history_name_xalign
-
-style history_text:
-    xpos gui.history_text_xpos
-    ypos gui.history_text_ypos
-    xanchor gui.history_text_xalign
-    xsize gui.history_text_width
-    min_width gui.history_text_width
-    textalign gui.history_text_xalign
-    layout ("subtitle" if gui.history_text_xalign else "tex")
-
-style history_label:
-    xfill True
-
-style history_label_text:
-    xalign 0.5
-
+    pass
+    
 
 ## Help screen #################################################################
 ##
@@ -1496,12 +1467,7 @@ define bubble.expand_area = {
 }
 
 
-screen remember():
-    frame:
-        xalign 0.5 ypos 50
-    vbox:
-        textbutton "REMEMBER":
-            action Return(True)
+
 
 
 

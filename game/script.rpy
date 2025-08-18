@@ -151,7 +151,7 @@ label start:
 
         angel "Then here's one more little gift for our lovely dead one!"
 
-        show screen remember
+        $ remember_unlocked = True
 
         angel "Now you can remember anything you’ve seen or heard — *exactly* as it was. Just tap that REMEMBER button. It’s floating right beside you."
 
@@ -610,6 +610,810 @@ label start:
         fly "It’s time to admit we’re in real danger."
 
         basic "And we can’t do anything about it."
+
+        gunman "We can still search the school together. It's not that big, so if there's a murderer hiding somewhere, they won’t go unnoticed."
+
+        bang "That's true. There are still eleven of us. Even if we're dealing with a ninja, they can't kill all of us in a second!"
+
+        forest "Still, while we're walking around in such a large group, the murderer might sneak away."
+
+        kitten "Are you suggesting we split up, Shinkan-san?"
+
+        forest "Yes. Five of us will go upstairs, and the rest will watch the first floor and the schoolyard."
+
+        forest "If you don't mind, of course..."
+
+        curly "Sounds good. I'm gonna stay here. Who’s with me?"
+
+        queen "Me!"
+
+        basic "Okay, me too."
+
+        bang "Same here. Menmou-san?"
+
+        kitten "Alright, I'm in."
+
+        handsome "I’d better stay here too."
+
+        barling "So, Katakiyaku-kun, Soradaki-chan, Shinkan-san, Kinzoku-san, and I will go upstairs."
+
+        bang "Let’s meet in the kitchen when we’re done."
+
+        gunman "Okay. Good luck, guys."
+
+        main_ch "Looks like I need to choose which group to follow."
+
+        menu:
+
+            "Stay at the 1st floor":
+                jump choice1_down
+
+            "Go upstairs":
+                jump choice1_up
+
+    label choice1_down:
+
+        $ choice1_flag = True
+
+        main_ch "So, I'm staying here."
+
+        main_ch "My current company is Curly, Queen, Basic, Bang, Handsome and Kitten. Four boys, two girls."
+
+        handsome "So, let's go."
+
+        kitten "Where are we going to start from?"
+
+        bang "Maybe let's split up and move from the ends of the hallway to the exit?"
+
+        queen "I'm taking the kitchen part!"
+
+        bang "As you wish. I'm going to start from the gym. Who's with me?"
+
+        curly "Count me in."
+
+        basic "Same here."
+
+        queen "Isn't it more wise to form groups of one girl and two boys instead?"
+
+        handsome "Sounds rational."
+
+        queen "Kuumojiretsu-kun, would you like to join us?"
+
+        curly "Hmmm..."
+
+        curly "Okay..."
+
+        kitten "So, I'm with you, Keisetsu-kun, Hichou-kun."
+
+        bang "We don't mind at all."
+
+        basic "Yeah, sure!"
+
+        curly "See you later, guys!"
+
+        main_ch "Okay, they are leaving me alone again."
+
+        angel "Chase someone, then!"
+
+        main_ch "Fair enough."
+
+        main_ch "Feels like Ougyoku-san stole Kuumojiretsu-san from his company. I'm curious about what do they think of it, so..."
+
+        bang "...And nobody's here. Us only."
+
+        main_ch "And me."
+
+        kitten "Definitely."
+
+        basic "Or they're ninjas!"
+
+        kitten "Or they are ninjas."
+
+        main_ch "No ninjas around here. Just me."
+
+        angel "How can you say you're not a ninja if you don't remember anything, my cute dead one?"
+
+        main_ch "..."
+
+        main_ch "I don't feel like a ninja."
+
+        angel "What kind of feeling is it supposed to be?"
+
+        main_ch "..."
+
+        main_ch "Who knows?"
+
+        angel "Don't stare at me, I'm not a ninja!"
+
+        main_ch "Okay, okay."
+
+        kitten "To the Classroom A, then?"
+
+        basic "Yes, sure. Let's go!"
+
+        bang "Hari, wait a sec."
+
+        basic "What, your heart is beating too fast when you're at the same place with lil Kitten, hah?"
+
+        bang "Shut up! It's not the point!"
+
+        basic "The Queen stuff, then? Just chill out, dude!"
+
+        bang "..."
+
+        basic "Queen is Queen. You know her. She is crazy about controlling everything around her."
+
+        basic "And smile, dude! Be fuckin' nice! It's your Misora-chan with us, not Queen!"
+
+        bang "..."
+
+        bang "My bad."
+
+        basic "See?"
+
+        kitten "Aren't you attacked by ninjas, guys?"
+
+        basic "Sorry, Menmou-san, we're coming!"
+
+        bang "Yeah!"
+
+        main_ch "Interesting."
+
+        angel "What exactly?"
+
+        main_ch "The nicknames."
+
+        angel "Not the romantical stuff?"
+
+        main_ch "No."
+
+        angel "Your heart is too cold, you know?"
+
+        main_ch "Not only the heart. I'm cold from head to toes."
+
+        angel "..."
+
+        main_ch "I'm dead, you know?"
+
+        angel "I'm just realising how hilarious you are, my little dead one!"
+
+        main_ch "I have a normal name, don't I?"
+
+        angel "You can choose any nickname instead!"
+
+        main_ch "No, thanks."
+
+        main_ch "In addition, I'm sure I already have one."
+
+        angel "Looks like that."
+
+        main_ch "So, now I know that Menmou-san is Kitten and Ougyoku-san is Queen."
+
+        main_ch "I think, these nicknames are a real match."
+
+        main_ch "I wonder what's mine."
+
+        main_ch "Anyway, I wanna take a look at the Queen's group."
+
+        angel "Sure, go on, my pretty dead one!"
+
+        queen "Keep the door open, Gojinka-kun. I don't wanna get stuck at the murderer's trap."
+
+        handsome "The door don't have any locks, but if you wish so..."
+
+        curly "It seems to me, there's nobody except us around here. Just like at the kitchen."
+
+        curly "The only ones that could accompany us are ghosts, but they don't seem to give us any hints. Or throw any knifes."
+
+        handsome "Exactly."
+
+        main_ch "Dunno about the knifes, but I can't give you any hints."
+
+        main_ch "Sorry, guys, I know less then you do, really."
+
+        queen "Are you mocking at me?"
+
+        curly "Not at all, Ougyoku-san."
+
+        queen "..."
+
+        queen "I believe you. But only for {i}this{/i} time."
+
+        curly "Glad to hear."
+
+        handsome "If only we could fix the phone..."
+
+        queen "Forest and Goldsmith tried, but nothing changed. As I heard."
+
+        handsome "Yeah, they're kinky about the wire stuff as nobody else, so, if they failed, no one of us will succeed."
+
+        curly "Right."        
+
+        curly "Anyway, let's proceed to the Sciense Class."
+
+        handsome "Sounds good."
+
+        queen "I agree."
+
+        queen "Who's that murderer, I wonder."
+
+        handsome "If we knew, we wouldn't search them here and there."
+
+        curly "Cannot disagree."
+
+        queen "What would we do if we found nobody? It feels..."
+
+        handsome "Scary?"
+
+        queen "Like, the danger may wait for us everywhere - and we won't be able to protect ourselves!"
+
+        curly "Let's hope for better."
+
+        curly "The girls couldn't just lay down and die from nothing. It means, someone did it. A real human, with flesh and bones."
+
+        curly "So, if that someone is real, we can catch them."
+
+        curly "I don't know what we'll do with them when catch, still there will be all of us against one human being."
+
+        curly "We are bound to succeed."
+
+        handsome "Sounds rational."
+
+        queen "I'm glad you joined us, Kuumojiretsu-kun! Your words make me feel better."
+
+        curly "Happy to hear."
+
+        curly "So, no one's here again."
+
+        main_ch "Except me."
+
+        angel "And me."
+
+        curly "So, Classroom B is the only one left..."
+
+        handsome "Let's check it, then."
+
+        angel "By the way, the other part is entering Art Class at the very moment."
+
+        main_ch "Sounds like it may be more informative there."
+
+        angel "That's exactly what I mean!"
+
+        main_ch "Okay, let's join them."
+
+        main_ch "Here we are."
+
+        main_ch "Again."
+
+        main_ch "At the very beginning, hah?"
+
+        angel "Now you know more than before, don't you?"
+
+        main_ch "Probably..."
+
+        main_ch "At least, I know that I'm the one who went to the city yesterday."
+
+        main_ch "Hope someone will mention it now."
+
+        angel "Let's see..."
+
+        bang "These... girls look more ordinary now... Sorry for I'm saying."
+
+        kitten "You don't need to apologyze, Keisetsu-kun. I've caught the idea."
+
+        basic "We've already seen the bodies, so they doesn't scare us too much this time, right?"
+
+        bang "Exactly..."
+
+        kitten "Anyway, I don't feel like I wanna look at them any longer. Sorry, guys."
+
+        basic "Go to her, dude. I'll finish the stuff here."
+
+        bang "Thanks!"
+
+        basic "Okay, our charming lovers left, and that's how the real stuff begins!"
+
+        main_ch "What does he mean?"
+
+        basic "I mean, who else can search the area around the bodies?"
+
+        main_ch "Do you hear me?"
+
+        basic "Oh, poor girls... We've never communicated, actually... Anyway, I'm so sorry for what's happened to you three..."
+
+        main_ch "Emmmm, thanks?"
+
+        basic "Seems like you've just returned from the city - and now you're dead... Oh, the lockers are opened!"
+
+        main_ch "Which of us has just returned?"
+
+        basic "And what do we have here? Did these bodies just fall out or what?"
+
+        main_ch "Hey, don't change the topic!"
+
+        basic "You don't seem to tell me the truth, do you?"
+
+        main_ch "You don't seem to hear me anyway!"
+
+        basic "I see..."
+
+        basic "Hope you three enjoyed your yesterday. Best friends and all that stuff."
+
+        basic "What were you even talking about all the time? You three were as different as... dunno..."
+
+        basic "..."
+
+        bang "Hari, are you okay there?"
+
+        basic "Ah, yeah, there's nothing new here. Wait, I'm coming..."
+
+        main_ch "..."
+
+        main_ch "It means, there's a new trouble."
+
+        angel "Kinda."
+
+        angel "What's next?"
+
+        main_ch "No ideas."
+
+        main_ch "At least, I can keep following them. Perhaps some more details can recall any memories..."
+
+        
+
+
+
+
+        jump choice1_done
+
+    label choice1_up:
+
+        $ choice1_flag = False
+
+        main_ch "So, let's proceed upstairs."
+
+        main_ch "My current company is Forest, Barling, Fly, Gunman and Goldsmith. Three boys, two girls."
+
+        barling "We're here again..."
+
+        barling "A lot of things changed from our last time here."
+
+        fly "You're right. How could any of us imagine that our classmates... our friends..."
+
+        fly "..."
+
+        forest "..."
+
+        goldsmith "..."
+
+        gunman "We *must* find the murderer."
+
+        goldsmith "It's the only thing we can do for them three, isn't it?"
+
+        fly "Not only for them, actually. The murderer may kill someone else, so..."
+
+        forest "Looks like nobody's here."
+
+        main_ch "Except me."
+
+        barling "That's true. Only us five."
+
+        main_ch "And me. Us six."
+
+        barling "I wish we opened their room and they're here..."
+
+        main_ch "I'm still here."
+
+        forest "We have to accept the reality as it is. They're gone."
+
+        main_ch "Not actually..."
+
+        forest "And there's no way for them to return."
+
+        main_ch "If I were you, I won't be so confident about it."
+
+        angel "Hahaha, what a hilarious dead one! I've just gone away and - here you are! Already talking to yourself!"
+
+        main_ch "Nah. Was talking to them. They just didn't answer."
+
+        angel "Oh, really annoying alive ones!"
+
+        main_ch "I'm not annoyed."
+
+        angel "Neither am I."
+
+        main_ch "..."
+
+        angel "..."
+
+        main_ch "Hey, I'm not even sure I know anybody here."
+
+        main_ch "They're kinda sad and it looks like my death is the reason, but..."
+
+        main_ch "I feel nothing, you know?"
+
+        main_ch "Just like I was always..."
+
+        main_ch "Like this."
+
+        angel "Dead."
+
+        angel "Okay, right now gonna prove you were alive. Look!"
+
+        forest "There's no one at the study room."
+
+        gunman "Just as at any other one here, hah?"
+
+        goldsmith "And no traces that anyone from outside were here."
+
+        gunman "Ah, Shinri, found something?"
+
+        barling "..."
+
+        barling "That's nothing... I've just... You know..."
+
+        barling "..."
+
+        fly "We were at the girls' room and... There was their photo..."
+
+        forest "The one they've took yesterday?"
+
+        barling "...Yes."
+
+        goldsmith "Show it to us, please, Rikorisu-san."
+
+        barling "Yes, of course..."
+
+        #photo
+
+        main_ch "Wait a minute."
+
+        forest "They seem to be so happy here..."
+
+        main_ch "Isn't it the photo from the photo booth?"
+
+        goldsmith "They look like they know nothing about what would happen to them in a few hours..."
+
+        main_ch "And the date is... Yesterday, right?"
+
+        angel "Yeah."
+
+        #memory of three with pizza
+
+        main_ch "Nah, that can't be true!"
+
+        angel "Just because you don't allow it to be?"
+
+        angel "That's the truth, my dear dead one!"
+
+        main_ch "And how am I supposed to understand which one is me?!"
+
+        angel "Not my business."
+
+        main_ch "Wait! Don't..."
+
+        main_ch "...dissappear. Yeah, just like this."
+
+        main_ch "But who cares, right?"
+
+        gunman "So, looks like that's all here."
+
+        fly "We've found nothing..."
+
+        goldsmith "Nothing is also something. Like, it means that the murderer is not here."
+
+        gunman "I guess, it's time to join the guys downstairs. Maybe they were more lucky..."
+
+        barling "Or unlucky..."
+
+        gunman "Or unlucky."
+
+        fly "Okay, let's go!"
+
+        main_ch "So, dunno about them, but the thing I've found out doesn't make me happier at all."
+
+        jump choice1_done
+
+    label choice1_done:
+
+        bang "What's up, guys?"
+
+        gunman "Nothing at all."
+
+        goldsmith "At least, there were no ninjas upstairs. Or they're hiding too well."
+
+        basic "They couldn't call themselves ninjas if they let you found themselves so easily, you know?"
+
+        forest "No objections."
+
+        bang "See?"
+
+        fly "You two are talking like you've actually found those ninjas!"
+
+        if choice1_flag:
+        
+            main_ch "Not really."
+
+        basic "..."
+
+        basic "Not really..."
+
+        if choice1_flag:
+        
+            main_ch "Just as I said."
+
+        queen "Let me interrupt this obviously intelligent discussion."
+
+        if choice1_flag:
+
+            main_ch "Queen as she is."
+
+            angel "I'm a bit tired of Her Magesty."
+
+            main_ch "Me too."        
+
+        else:
+
+            main_ch "Sounded like passive agression."
+
+            main_ch "What's whong with her?"
+
+            angel "Perhaps the crown's too heavy."
+
+            main_ch "Which crown?"
+
+            angel "The metaphorical one."
+
+            main_ch "Okay..."
+
+        kitten "No one is here. No one except ouselves."
+
+        fly "It should sound like relief but..."
+
+        barling "It's too scary to admit that..."
+
+        curly "The murderer is someone we already know."
+
+        basic "One of..."
+
+        bang "...us."
+
+        "..."
+
+        angel "You have dramatic classmates, you know?"
+
+        main_ch "They are shocked. It's okay to stare at anyone in silence when you realise such an awful thing."
+
+        angel "Probably. Any suspects?"
+
+        main_ch "Not really..."
+
+        main_ch "Everyone seems to be suspicious and innocent at the same time."
+
+        main_ch "The time..."
+
+        angel "Limited, yeah."
+
+        main_ch "I know."
+
+        angel "Okay, okay, don't get mad."
+
+        main_ch "Madness is not one of my plans."
+
+        main_ch "At least, for now."
+
+        angel "Scary-scary!"
+
+        main_ch "And they're gone. Again."
+
+        main_ch "..."
+
+        main_ch "Who's the murderer?"
+
+        main_ch "..."
+
+        main_ch "Nah. No ideas."
+
+        basic "So, why are we just standing here as silly statues? We have to do something!"
+
+        queen "What are we supposed to do, then?"
+        
+        queen "Don't you think the murderer's gonna raise the hand and say something like:"
+        
+        queen "\"Oh, I'm so, sooooo soooorry! Forgive me, {i}please{/i}!!!!!!!!!!!!!!\" "
+
+        queen "Don't be an idiot, Hichou Hari!"
+
+        basic "Ougyoku-saaaaan, you're too rude!"
+
+        main_ch "Cannot disagree."
+
+        bang "Let's return to the topic."
+
+        bang "Are there any other suspects except us eleven?"
+
+        handsome "Who else could it be? We've searched everything from top to bottom and - nothing."
+
+        fly "Oh, wait-wait-wait! I have an idea!"
+
+        curly "I guess it's the same as mine. About three more suspects, right?"
+
+        fly "Yeah!"
+
+        barling "What do you both mean?"
+
+        curly "Look, there are three bodies at the art class. But what if they've just killed each other?"
+
+        gunman "But for what reason?"
+
+        kitten "Looks like there's no reason. They were besties. I can't remember them arguing or something."
+
+        bang "They could be... You know..."
+
+        gunman "No way! Aren't you talking about..."
+
+        bang "Yeah. One of them was actually {i}Junkie{/i}."
+
+        if choice1_flag:
+
+            main_ch "Another strange nickname?"
+
+        else:
+
+            main_ch "Junkie? Who's that?"
+
+        barling "Hey, couldn't you be a bit more respectful, Keisetsu-kun? She's our dead classmate..."
+
+        bang "And what's next?"
+
+        bang "Let's stop pretending we don't know that everyone calls everyone by nicknames!"
+
+        bang "Don't make such a face, {i}Barling{/i}."
+
+        bang "You too, {i}Forest{/i}. And {i}Queen{/i}, don't act like it's the first time you hear it. Weren't you the one who started it all?"
+
+        if choice1_flag == False:
+
+            main_ch "Oh, {i}that{/i} kind of crown..."
+
+        queen "You!.."
+
+        bang "I know. Bang, right? Just because I'm kinda crazy, like I'm gonna to blow up the whole school at the next second, hah?"
+
+        bang "It's not a secret for me at all!"
+
+        curly "You guys need to cool down."
+
+        handsome "Yeah, we already have three corpses. We don't want to get two more."
+
+        kitten "Midori-chan, let's go out."
+
+        fly "May I join you?"
+
+        kitten "Sure. We're going to library. It's calm there."
+
+        kitten "Midori-chan, {i}let's go{/i}."
+
+        queen "..."
+
+        bang "Don't say I'm wrong!"
+
+        basic "You're not wrong, Udonge. It's just..."
+
+        curly "The timing was a bit..."
+
+        bang "I know..."
+
+        bang "It's not everyday stuff. Those three deaths."
+
+        handsome "Anyway, are we going to stay here all day?"
+
+        curly "Really. I'm thinking of sleeping a bit."
+
+        barling "Sleeping?"
+
+        curly "Wanna skip this day as fast as I can."
+        
+        curly "We have to admit that we can't do anything without the police."
+
+        curly "Even if we found the murderer, what would we do next? Kill them too, just in case?"
+
+        basic "Maybe it isn't the worst idea ever..."
+
+        bang "And what's next? Jail? No, thanks. I'd better go to the university instead."
+
+        curly "Yeah. Me too."
+
+        curly "So, I'm leaving."
+
+        handsome "I'm going with you."
+
+        curly "Oh, Gojinka-kun, you won't regret, I promise! Sleep is the perfect way of skipping time!"
+
+        barling "See you later, guys."
+
+        handsome "Sure."
+
+        gunman "There's still some homework left for me to do, so..."
+
+        barling "Oh, Nanka, I've completely forgotten about it! The project!"
+
+        gunman "That's exactly what I'm talking about. To the study room, then?"
+
+        barling "Let's go!"
+
+        basic "Are they serious about that project?"
+
+        forest "That's the last thing to care about, don't you think so?"
+
+        bang "Hah, that's true. I can't believe we're going to study at Monday. It feels like Monday will never come. Like the time's frosen."
+
+        goldsmith "It's obviously normal. Three deaths stand between us and our usual life. Feeling of time can't be the same as before."
+
+        bang "Mhm..."
+
+        basic "Udonge, what about playing some card games?"
+
+        bang "Why not? Everyone skips the time, why can't we do the same? Guys, are you with us?"
+
+        forest "Yeah."
+
+        goldsmith "Of course."
+
+        basic "So, the cards..."
+
+        bang "Okay, okay, I'll bring them."
+
+        bang "Hari, it's ridiculous - invite me to play and don't have the cards!"
+
+        basic "I'm kinda sorry."
+
+        bang "Not at all."
+
+        basic "Who knows? Hey, go already!"
+
+        bang "Hahahaha!"
+
+        main_ch "Okay, they finally settled."
+
+        angel "It looks like your classmates split up again, hah?"
+
+        main_ch "Yes, that's true."
+
+        angel "So, are you going to stay here or haunt anyone else?"
+
+        main_ch "Hmmm..."
+
+        tutor "Ding-dong! It's time to add a new screen!"
+
+        tutor "Here's the School Map screen."
+
+        # tutor explains how the screen works. Player can visit two places with people at 1 hour. Places without people don't affect time.
+        # Every hour someone moves somewhere, soooo...
+
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+        # ... the game continues here.
+ 
+
 
         
 
